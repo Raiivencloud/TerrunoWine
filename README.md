@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# TerrunoWine 🍷
 
-# Run and deploy your AI Studio app
+**TerrunoWine** is an intelligent AI-powered e-commerce and sommelier platform designed to connect consumers with the elite wine heritage of Mendoza, Argentina. It combines computer vision and Agentic AI to transform the wine selection and purchasing experience.
 
-This contains everything you need to run your app locally.
+## 🚧 Project Status: Active Development (Sprint 1)
+Currently architecting the core infrastructure, focusing on the visual recognition pipeline for label scanning and the integration of specialized winery data.
 
-View your app in AI Studio: https://ai.studio/apps/7004f7fe-1350-45d5-9b0f-e5a8ba1e6b94
+## 🚀 Planned & Core Features
+- **AI Sommelier (Gemini Integration):** Real-time expert advice on pairings, tasting notes, and aging potential via `geminiStudy.ts` logic.
+- **Visual Label Recognition:** Planned feature for instant bottle identification and technical sheet retrieval.
+- **Smart E-Commerce:** Secure purchasing flow integrated with a curated database of premium Argentinian wineries (Zuccardi, Catena Zapata, etc.).
+- **Serverless Architecture:** Scalable backend powered by Firebase Functions and Firestore.
 
-## Run Locally
+## 🛠️ Technical Stack
+- **Frontend:** [React](https://react.dev/) + [Vite](https://vitejs.dev/) + [TypeScript](https://www.typescriptlang.org/) for a high-performance, type-safe UI.
+- **Backend:** [Firebase Functions](https://firebase.google.com/docs/functions) (Node.js) for serverless logic and secure API handling.
+- **Database:** [Cloud Firestore](https://firebase.google.com/docs/firestore) for real-time inventory and user data.
+- **Orchestration:** Managed scripts for cloud environment stability (`check-bucket.ts`, `cloud-run.yaml`).
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📦 Project Structure
+```text
+backend/
+└── functions/      # Serverless API logic (Node.js)
+public/             # Static assets and PWA configuration
+src/
+├── components/     # UI Architecture
+├── scripts/        # DevOps & Architecture documentation
+└── services/       # AI & Firebase integration logic
