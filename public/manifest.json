@@ -1,0 +1,16 @@
+{
+  "name": "Terruño Wine",
+  "short_name": "Terruño",
+  "description": "Vinería y tienda de conveniencia premium",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF9F6",
+  "theme_color": "#4A0404",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

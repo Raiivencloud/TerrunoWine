@@ -1,0 +1,6 @@
+{
+  "name": "Terruño Wine Prototype",
+  "description": "Prototipo interactivo de e-commerce de lujo y logística para vinería y tienda de conveniencia.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}
